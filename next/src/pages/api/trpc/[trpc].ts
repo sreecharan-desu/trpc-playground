@@ -1,6 +1,9 @@
 import { createNextApiHandler } from '@trpc/server/adapters/next';
 import { appRouter } from '../../../server';
 import jwt from "jsonwebtoken";
+/**
+ * SECRET utility.
+ */
 export const SECRET = 'SECr3t';
 import { User , Todo} from "../../../server/db";
 
