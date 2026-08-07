@@ -13,6 +13,9 @@ const userSchema = new mongoose.Schema({
 });
   
 
+/**
+ * Todo utility.
+ */
 export const Todo = mongoose.models.Todo || mongoose.model('Todo', todoSchema);
   
 export const User = mongoose.models.Todo || mongoose.model('User', userSchema);
